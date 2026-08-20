@@ -1,0 +1,18 @@
+sequenceDiagram
+    %% Definindo os participantes
+    actor A as Aluno
+    participant T as :TelaDeReserva
+    participant C as :ControladorReserva
+    participant L as :Livro
+
+    %% Construindo o diagrama (incompleto)
+    A->>T:1 reservarLivro()
+    activate T
+    T->>C:2 solicitarReserva(livro)
+    activate C
+    C->>L:3 verificarDisponibilidade():boolean
+    activate L
+    L-->>C:3.1 disponivel:true
+    deactivate L
+    deactivate C
+    deactivate T
