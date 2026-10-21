@@ -1,4 +1,4 @@
-# Atividade Prática: Modelagem de Ciclo de Vida (Diagrama de Estados)
+## Atividade Prática: Modelagem de Ciclo de Vida (Diagrama de Estados)
 
 **Contexto do Problema: O Bug do "IFDelivery"**
 
