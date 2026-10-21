@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> Processando
+    state Processando {
+        [*] --> Executando
+        Executando --> Executando : [enquanto houver itens]
+        Executando --> Finalizado : [fim dos itens]
+    }
+    Processando --> [*]
