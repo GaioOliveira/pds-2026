@@ -23,4 +23,4 @@
 ### Semana 4
 * Compreender o papel dos fragmentos combinados e estereótipos em Diagrama de Sequência;
 * Criar um Diagrama de Sequência para um Caso de Uso de um dado problema.
-* Acesso ao material da [Semana 4](./semana4)
+
